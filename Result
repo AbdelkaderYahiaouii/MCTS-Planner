@@ -1,0 +1,30 @@
+MCTS Plan for blocksworld: (pickup A) (putdown A)
+HSP Plan for blocksworld: (pickup A) (putdown A)
+Comparison for plan lengths:
+MCTS Plan Length: 2
+HSP Plan Length: 2
+Both planners have the same plan length.
+--------
+
+MCTS Plan for depot: (load P1 D1) (unload P1 D1)
+HSP Plan for depot: (load P1 D1) (unload P1 D1) (load P2 D2) (unload P2 D2)
+Comparison for plan lengths:
+MCTS Plan Length: 2
+HSP Plan Length: 4
+MCTS is better!
+--------
+
+MCTS Plan for gripper: (pick A) (release A)
+HSP Plan for gripper: (pick A) (release A) (pick B) (release B)
+Comparison for plan lengths:
+MCTS Plan Length: 2
+HSP Plan Length: 4
+MCTS is better!
+--------
+
+MCTS Plan for logistics: (move P1 A B) (move P2 B A)
+HSP Plan for logistics: (move P1 A B)
+Comparison for plan lengths:
+MCTS Plan Length: 2
+HSP Plan Length: 2
+Both planners have the same plan length.
